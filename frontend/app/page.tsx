@@ -18,7 +18,7 @@ export default function Home() {
 
   const handleAskQuestion = async () => {
     if (!question.trim()) return;
-    
+
     setIsLoading(true);
     try {
       // TODO: Call backend API
@@ -46,7 +46,7 @@ export default function Home() {
           <div className="lg:col-span-1">
             <div className="bg-white rounded-lg shadow-md p-6">
               <h2 className="text-xl font-semibold mb-4">Documents</h2>
-              
+
               <label className="flex items-center justify-center w-full p-6 border-2 border-dashed border-blue-300 rounded-lg cursor-pointer hover:bg-blue-50 transition">
                 <div className="flex flex-col items-center justify-center">
                   <Upload className="text-blue-500 mb-2" size={24} />
@@ -82,7 +82,7 @@ export default function Home() {
           <div className="lg:col-span-2">
             <div className="bg-white rounded-lg shadow-md p-6 h-full flex flex-col">
               <h2 className="text-xl font-semibold mb-4">Ask a Question</h2>
-              
+
               <div className="flex-1 bg-gray-50 rounded-lg p-4 mb-4 overflow-y-auto">
                 <p className="text-gray-500 text-center py-8">
                   Upload documents to get started
@@ -108,7 +108,7 @@ export default function Home() {
                   <MessageCircle size={20} />
                   {isLoading ? 'Analyzing...' : 'Ask AI'}
                 </button>
-                
+
                 <button className="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-lg transition flex items-center gap-2">
                   <Download size={20} />
                   Export
