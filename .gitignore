@@ -1,0 +1,49 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Node/NPM
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.next/
+out/
+dist/
+
+# Java/Maven
+target/
+*.class
+*.jar
+*.war
+*.nar
+.m2/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Uploads
+uploads/
+/tmp
+
+# Docker
+.docker/
+
+# Build artifacts
+build/
+.gradle/

@@ -1,0 +1,33 @@
+.gitignore for backend
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# Maven
+target/
+.m2/
+
+# Java
+*.class
+*.jar
+*.zip
+
+# Environment
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+uploads/
+/tmp
